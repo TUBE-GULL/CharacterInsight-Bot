@@ -1,8 +1,8 @@
 from aiogram.types import CallbackQuery
 from collections import Counter
-from app.components.working_db import QuizeDatabase
+from app.components.working_ydb import WorkingDataBase
 
-db = QuizeDatabase()
+db = WorkingDataBase()
 
 
 async def result_quiz(callback: CallbackQuery, correct_answers: list[str]):
@@ -15,7 +15,7 @@ async def result_quiz(callback: CallbackQuery, correct_answers: list[str]):
     counter =  Counter(correct_answers)
     most_common_symbol = counter.most_common(1)[0][0]
     
-    await db.write_database(callback.from_user.id, result[most_common_symbol], 'past_result')
+    db.write_database(callback.from_user.id, result[most_common_symbol], 'past_result')
     await callback.message.answer(f"Скорее всего, вы: {result[most_common_symbol]}")
 
 # A: Экстравертный, общительный, энергичный.

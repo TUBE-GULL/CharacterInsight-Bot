@@ -39,4 +39,3 @@ confirmation_keyboard = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="Нет", callback_data="confirm_no")]
 ])
 
-
