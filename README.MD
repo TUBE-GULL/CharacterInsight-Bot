@@ -1,15 +1,23 @@
 <h1 align="center">Quiz for Telegram bot in Python(Aiogram)</h1>
 
 <h2 align="center">Used Libraries</h2>
- <div align="center">
+<div align="center">
+  <a href="https://ydb.tech/" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0 10px;">
+    <img src="https://storage.yandexcloud.net/ydb-www-prod-site-assets/ydb_icon.svg" alt="ydb" width="60" height="60"/>
+  </a>
+  <a href="https://www.sqlite.org/index.html" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0 10px;">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original-wordmark.svg" alt="sqlite" width="60" height="60"/>
+  </a>
+  <!-- AIOGRAM -->
+  <a href="https://docs.aiogram.dev/en/latest/index.html" target="aiogram" style="display: inline-block; margin: 0 10px;">
+    <img src="https://docs.aiogram.dev/en/latest/_static/logo.png" alt="aiogram" width="60" height="60"/>
+  </a>
+  <!-- PYTHON -->
+  <a href="https://www.python.org" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0 10px;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
+  </a>
+</div>
 
-<a href="https://ydb.tech/" target="_blank" rel="noreferrer"> <img src="https://storage.yandexcloud.net/ydb-www-prod-site-assets/ydb_icon.svg" alt="python" width="60" height="60"/> </a>
-  <a href="https://www.sqlite.org/index.html" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original-wordmark.svg" alt="python" width="60" height="60"/> </a>
- <!-- AIOGRAM -->
- <a href="https://docs.aiogram.dev/en/latest/index.html" target="aiogram"><img src="https://docs.aiogram.dev/en/latest/_static/logo.png" alt="aiogram" width="60" height="60"/></a>
- <!-- PYTHON -->
- <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/> </a>
- </div>
 
 ## Installation dependencies
 
